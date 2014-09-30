@@ -1,13 +1,13 @@
 # gps-babel
 
-A node.js wrapper for the GPSBabel application.
+A node.js wrapper for the [GPSBabel](http://www.gpsbabel.org/) application.
 
 ## Getting Started
 Install the module with: `npm install gps-babel`
 
 ```javascript
 var gps_babel = require('gps-babel');
-gps_babel.awesome(); // "awesome"
+gps_babel.convert('gdb', 'test.gdb', 'gpx', 'test.gpx'); // "convert file"
 ```
 
 ## Documentation
